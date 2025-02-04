@@ -5,6 +5,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{48E61035-6CAE-4977-BDB8-EC2A78D7033D}|DungeonTextRPG\\DungeonTextRPG.csproj|c:\\users\\zmffl\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\unity\\\uD504\uB85C\uC81D\uD2B8 \uBAA8\uC74C\\\uC2A4\uD30C\uB974\uD0C4 \uC5F0\uC560\uAE30\\textrpg_g_h\\dungeontextrpg\\dungeontextrpg\\dungeongame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48E61035-6CAE-4977-BDB8-EC2A78D7033D}|DungeonTextRPG\\DungeonTextRPG.csproj|solutionrelative:dungeontextrpg\\dungeongame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E61035-6CAE-4977-BDB8-EC2A78D7033D}|DungeonTextRPG\\DungeonTextRPG.csproj|c:\\users\\zmffl\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\unity\\\uD504\uB85C\uC81D\uD2B8 \uBAA8\uC74C\\\uC2A4\uD30C\uB974\uD0C4 \uC5F0\uC560\uAE30\\textrpg_g_h\\dungeontextrpg\\dungeontextrpg\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E61035-6CAE-4977-BDB8-EC2A78D7033D}|DungeonTextRPG\\DungeonTextRPG.csproj|solutionrelative:dungeontextrpg\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E61035-6CAE-4977-BDB8-EC2A78D7033D}|DungeonTextRPG\\DungeonTextRPG.csproj|c:\\users\\zmffl\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\unity\\\uD504\uB85C\uC81D\uD2B8 \uBAA8\uC74C\\\uC2A4\uD30C\uB974\uD0C4 \uC5F0\uC560\uAE30\\textrpg_g_h\\dungeontextrpg\\dungeontextrpg\\dungeon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E61035-6CAE-4977-BDB8-EC2A78D7033D}|DungeonTextRPG\\DungeonTextRPG.csproj|solutionrelative:dungeontextrpg\\dungeon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E61035-6CAE-4977-BDB8-EC2A78D7033D}|DungeonTextRPG\\DungeonTextRPG.csproj|c:\\users\\zmffl\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\unity\\\uD504\uB85C\uC81D\uD2B8 \uBAA8\uC74C\\\uC2A4\uD30C\uB974\uD0C4 \uC5F0\uC560\uAE30\\textrpg_g_h\\dungeontextrpg\\dungeontextrpg\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E61035-6CAE-4977-BDB8-EC2A78D7033D}|DungeonTextRPG\\DungeonTextRPG.csproj|solutionrelative:dungeontextrpg\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E61035-6CAE-4977-BDB8-EC2A78D7033D}|DungeonTextRPG\\DungeonTextRPG.csproj|c:\\users\\zmffl\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\unity\\\uD504\uB85C\uC81D\uD2B8 \uBAA8\uC74C\\\uC2A4\uD30C\uB974\uD0C4 \uC5F0\uC560\uAE30\\textrpg_g_h\\dungeontextrpg\\dungeontextrpg\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E61035-6CAE-4977-BDB8-EC2A78D7033D}|DungeonTextRPG\\DungeonTextRPG.csproj|solutionrelative:dungeontextrpg\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,7 +44,7 @@
               "RelativeDocumentMoniker": "DungeonTextRPG\\DungeonGame.cs",
               "ToolTip": "C:\\Users\\zmffl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Unity\\\uD504\uB85C\uC81D\uD2B8 \uBAA8\uC74C\\\uC2A4\uD30C\uB974\uD0C4 \uC5F0\uC560\uAE30\\TextRPG_G_H\\DungeonTextRPG\\DungeonTextRPG\\DungeonGame.cs",
               "RelativeToolTip": "DungeonTextRPG\\DungeonGame.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-04T11:08:39.301Z",
               "IsPinned": true,
@@ -37,6 +53,54 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\zmffl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Unity\\\uD504\uB85C\uC81D\uD2B8 \uBAA8\uC74C\\\uC2A4\uD30C\uB974\uD0C4 \uC5F0\uC560\uAE30\\TextRPG_G_H\\DungeonTextRPG\\DungeonTextRPG\\Enemy.cs",
+              "RelativeDocumentMoniker": "DungeonTextRPG\\Enemy.cs",
+              "ToolTip": "C:\\Users\\zmffl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Unity\\\uD504\uB85C\uC81D\uD2B8 \uBAA8\uC74C\\\uC2A4\uD30C\uB974\uD0C4 \uC5F0\uC560\uAE30\\TextRPG_G_H\\DungeonTextRPG\\DungeonTextRPG\\Enemy.cs",
+              "RelativeToolTip": "DungeonTextRPG\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T11:21:30.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dungeon.cs",
+              "DocumentMoniker": "C:\\Users\\zmffl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Unity\\\uD504\uB85C\uC81D\uD2B8 \uBAA8\uC74C\\\uC2A4\uD30C\uB974\uD0C4 \uC5F0\uC560\uAE30\\TextRPG_G_H\\DungeonTextRPG\\DungeonTextRPG\\Dungeon.cs",
+              "RelativeDocumentMoniker": "DungeonTextRPG\\Dungeon.cs",
+              "ToolTip": "C:\\Users\\zmffl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Unity\\\uD504\uB85C\uC81D\uD2B8 \uBAA8\uC74C\\\uC2A4\uD30C\uB974\uD0C4 \uC5F0\uC560\uAE30\\TextRPG_G_H\\DungeonTextRPG\\DungeonTextRPG\\Dungeon.cs",
+              "RelativeToolTip": "DungeonTextRPG\\Dungeon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T11:20:47.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\Users\\zmffl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Unity\\\uD504\uB85C\uC81D\uD2B8 \uBAA8\uC74C\\\uC2A4\uD30C\uB974\uD0C4 \uC5F0\uC560\uAE30\\TextRPG_G_H\\DungeonTextRPG\\DungeonTextRPG\\Character.cs",
+              "RelativeDocumentMoniker": "DungeonTextRPG\\Character.cs",
+              "ToolTip": "C:\\Users\\zmffl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Unity\\\uD504\uB85C\uC81D\uD2B8 \uBAA8\uC74C\\\uC2A4\uD30C\uB974\uD0C4 \uC5F0\uC560\uAE30\\TextRPG_G_H\\DungeonTextRPG\\DungeonTextRPG\\Character.cs",
+              "RelativeToolTip": "DungeonTextRPG\\Character.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwDEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T11:19:45.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\zmffl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Unity\\\uD504\uB85C\uC81D\uD2B8 \uBAA8\uC74C\\\uC2A4\uD30C\uB974\uD0C4 \uC5F0\uC560\uAE30\\TextRPG_G_H\\DungeonTextRPG\\DungeonTextRPG\\Item.cs",
+              "RelativeDocumentMoniker": "DungeonTextRPG\\Item.cs",
+              "ToolTip": "C:\\Users\\zmffl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Unity\\\uD504\uB85C\uC81D\uD2B8 \uBAA8\uC74C\\\uC2A4\uD30C\uB974\uD0C4 \uC5F0\uC560\uAE30\\TextRPG_G_H\\DungeonTextRPG\\DungeonTextRPG\\Item.cs",
+              "RelativeToolTip": "DungeonTextRPG\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T11:19:09.607Z"
             }
           ]
         }
