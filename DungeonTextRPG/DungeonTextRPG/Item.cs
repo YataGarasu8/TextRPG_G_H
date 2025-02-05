@@ -10,6 +10,7 @@ namespace DungeonTRPG
     public class Item
     {
         private static Item item = new Item();
+
         public Weapon weapon = new Weapon();
     }
 
@@ -21,7 +22,7 @@ namespace DungeonTRPG
 
         public Weapon() //상속을 이용해서 하위 클래스로 작성하는 게 더 좋았을지도
         {
-            Sword = new string[13, 3];//용량을 신경 쓰지 않으면 자료형이 다른 배열 2개를 List로 하나로 만들 수 있다
+            Sword = new string[13, 3];
             GoldStauts = new int[13, 3];
 
             Sword[0, 0] = "초심자의 직검";
@@ -56,7 +57,7 @@ namespace DungeonTRPG
             Sword[1, 2] = "초보 도적들이 쓰는 단검";
             Sword[2, 2] = "미숙한 백정이나 쓰는 무딘 식칼이다.";
             Sword[3, 2] = "평범한 강철검이다.";
-            Sword[4, 2] = "의식에서 쓰는 제례용 단검. 특별 제작하기 시중에서는 보기 힘들다.";
+            Sword[4, 2] = "의식에서 쓰는 제례용 단검. 특별 제작하기에 시중에서는 보기 힘들다.";
             Sword[5, 2] = "동물을 해체하기 위한 도축칼. 약간 스산한 기운이 서려있다.";
             Sword[6, 2] = "천조국에서는 국가에 헌신한 자들을 위해 검으로 명예를 전한다고 한다.";
             Sword[7, 2] = "신의 이름을 전하기 위해 전도자들이 썼다는 시미터. 그러나 원주민에게 그들은 잔혹한 침략자였다.";

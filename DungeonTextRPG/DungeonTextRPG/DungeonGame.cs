@@ -6,23 +6,23 @@
 
 
 using System.Threading;
+using DungeonTRPG;
+using System.Xml.Linq;
 
 namespace DungeonTRPG
 {
 
-    internal class DungeonGame
+    public class DungeonGame
     {
-        DungeonGame dungeonGame = new DungeonGame();
         public static Character character = new Character();
         public static Item item = new Item();
         public static Dungeon dungeon = new Dungeon();
+        public static UI ui = new UI();
 
-        private static string? name; //요 이름 선언하는 것만 아니었으면 전부 다른 스크립트로 빼고 싶었는데...
-        private static string[,] items = new string[10, 2];//보유 아이템
-        private static string[] equip = new string[10]; //장비템. 스텟에 반영될 아이템의 배열 
+        public static string? name; //요 이름 선언하는 것만 아니었으면 전부 다른 스크립트로 빼고 싶었는데...
+        public static string[,] items = new string[10, 2];//보유 아이템
+        public static string[] equip = new string[10]; //장비템. 스텟에 반영될 아이템의 배열 
 
-        private static int AtkAdd;
-        private static int DefAdd;
 
         static void Main()
         {
@@ -124,9 +124,15 @@ namespace DungeonTRPG
             Console.WriteLine("의문의 노인: 자, 이제 준비는 끝났네. 이제 자네는 던전에 들어갈 수 있고 상점도 이용할 수 있지." +
                 "\n자네만의 방법으로 최종 던전 클리어를 노려 보게나. 그럼 이만.\n");
 
-            Window();
-
+            UI.Window();
         }
+    }
+
+    public class UI : DungeonGame
+    {
+        private static int AtkAdd;
+        private static int DefAdd;
+
         public static void Window()//다음에 하게 되면 이하 스크립트는 인터페이스를 이용해 작성하는 게 좋을 것 같다.
                                    //디버깅 시간이 긴 게 static 때문이었구나... 다음 부터는 최소한만 쓰도록 해야겠다. +메모리 낭비도 있었네
         {
@@ -150,6 +156,10 @@ namespace DungeonTRPG
                         Shop();
                         back = !back;
                         break;
+                    case "4":
+                        dungeon.entrance.Enter(); 
+                        back = !back;
+                        break;
                     default:
                         Console.WriteLine("잘못 누르셨습니다.");
                         break;
@@ -161,7 +171,7 @@ namespace DungeonTRPG
             AtkAdd = 0;
             DefAdd = 0;
             bool back = false;
-            while (!back)
+            while (!back)//이러면 상태창 안 들어가면 스탯 반영이 안되나?
             {
                 for (int i = 0; i < equip.Length; i++)//문자열 자체가 하나의 배열이니 당연히 Length를 선언할 수 있었는데... 너무 늦게 깨달았다.
                 {
@@ -174,13 +184,12 @@ namespace DungeonTRPG
                         }
                     }
                 }
-
                 Console.WriteLine($"\n이름: {name} " +
-                    $"\n레벨: {character.job.Lv}" +
-                    $"\n직업: {character.job.Jobname}" +
+                $"\n레벨: {character.job.Lv}" +
+                $"\n직업: {character.job.Jobname}" +
                     $"\n공격력: {character.job.Atk + AtkAdd} ({AtkAdd})" +
                     $"\n방어력: {character.job.Def + DefAdd} ({DefAdd})" +
-                    $"\n체력: {character.job.HitP}" +
+                $"\n체력: {character.job.HitP}" +
                     $"\n골드: {character.job.Gold}" +
                     $"\n\n0. 돌아가기");//가독성 때문에 줄내림
 
@@ -227,7 +236,7 @@ namespace DungeonTRPG
                 {
                     if (j > 0 && j <= i)
                     {
-                        for (int m = 0; m < 10; m++)
+                        for (int m = 0; m < equip.Length; m++)
                         {
                             if (items[j - 1, 0] == equip[m]) //오히려 하나만 장비 시키는 게 더 구현하기 쉬울지도
                             {
@@ -302,9 +311,7 @@ namespace DungeonTRPG
                     Console.WriteLine($"{i}. {item.weapon.Sword[2 + i, 0]} | {item.weapon.GoldStauts[2 + i, 0]} Gold | {item.weapon.Sword[2 + i, 1]} | {item.weapon.Sword[2 + i, 2]} | {sold[i - 1]}");
                 }
                 Console.WriteLine($"\n소지금: {character.job.Gold} Gold\n0. 돌아가기");
-
                 string Ward = Console.ReadLine();
-
                 Console.Clear();
 
                 switch (Ward) //여기는 if문으로 바꾸는 게 더 깔끔할 듯

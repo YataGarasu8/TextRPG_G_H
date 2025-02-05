@@ -10,10 +10,13 @@ namespace DungeonTRPG
     public class Dungeon
     {
         private static Dungeon dungeon = new Dungeon();
-        Entrance entrance = new Entrance();
+        
+        public Entrance entrance = new Entrance();//new를 지정 안 하면 null이고 지정하면 무한반복이라니 이건 대체... 
+        //무한 반복 해결: Entrance에 상속했다가 위의 new Dungeon(); 계속 반복되었음. 튜터님도 처음 보는 오류라고ㅋㅋㅋ
     }
     public class Entrance
     {
+        public static UI ui = new UI();
         public void Enter()
         {
             bool back = false;
@@ -29,6 +32,10 @@ namespace DungeonTRPG
                 Console.Clear();
                 switch (Ward)
                 {
+                    case "0":
+                        UI.Window();// 넌 왜 되냐...?
+                        back = true;
+                        break;
                     case "1":
                         break;
                 }
