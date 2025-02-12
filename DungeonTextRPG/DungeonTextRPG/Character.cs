@@ -44,7 +44,6 @@ namespace DungeonTRPG
 
         }
         public Warrior() { code = 1; } //직업을 구별하기 위한 코드
-
     }
 
     public class Thief : Job

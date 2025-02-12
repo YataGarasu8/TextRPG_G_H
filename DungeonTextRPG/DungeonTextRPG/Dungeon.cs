@@ -40,7 +40,7 @@ namespace DungeonTRPG
                     //case "1":
                     //    break;
                     case "4":
-                        if(character.job.Lv < 10)//얘도 null이라고 하고 멈추네
+                        if(character.job.Lv < 10)//얘도 null이라고 하고 멈추네 <-현재 여기서 막힘
                         {
                             Console.WriteLine("던전기지: 멈춰라 애송이! 너에게 아직 이곳은 이르다!");
                         }
